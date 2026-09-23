@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vercel/
+.env
+# personalised downloads from the exam page (re-download your own)
+*.zip
+jigsaw.webp
+.hypothesis/
+.pytest_cache/

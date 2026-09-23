@@ -1,0 +1,5 @@
+Does the query start with a WITH clause that defines a common table expression (CTE)?
+Does the query use COALESCE, IFNULL, or NVL to handle NULL values?
+Does the query use an aggregate function such as SUM, COUNT, AVG, MIN, or MAX?
+Does the final SELECT read FROM a named CTE defined earlier in the query rather than directly from a raw table?
+Does the query contain two or more SELECT keywords, such as a CTE followed by a final SELECT?

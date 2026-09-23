@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Regional Unemployment Rate</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<!--
+Mismatch: the original categorical palette implies region colors are unrelated categories, hiding the gradient from low to high.
+It treats ordered data as unordered: viewers would read each bar as a separate group and could not see that unemployment rises steadily from 2% to 18%.
+It even reused the same red and blue for Region A/H and B/I, suggesting those regions are alike when they are far apart.
+Correct scheme: sequential color scheme, because unemployment rate is a single ordered numeric quantity (low to high) with no meaningful midpoint,
+so lightness should increase monotonically with the value: light blue = low unemployment, dark blue = high unemployment.
+-->
+<style>
+:root { color-scheme: light dark; }
+body { font-family: sans-serif; margin: 16px; background: Canvas; color: CanvasText; }
+h2 { font-size: 1rem; margin-bottom: 4px; }
+p { font-size: 0.8rem; opacity: 0.75; margin-bottom: 12px; }
+canvas { max-height: 280px; }
+</style>
+</head>
+<body>
+<h2>Regional Unemployment Rate</h2>
+<p>Unemployment rate (%) by region, ranging from 2% to 18%. Sequential color scheme: lighter = lower, darker = higher.</p>
+<canvas id="chart"></canvas>
+<script>
+// FIXED: sequential palette (light to dark blue) for ordered numeric data
+const colors = ["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"];
+new Chart(document.getElementById('chart'), {
+type: 'bar',
+data: {
+labels: ["Region A","Region B","Region C","Region D","Region E","Region F","Region G","Region H","Region I"],
+datasets: [{
+label: 'Regional Unemployment Rate',
+data: [2,4,6,8,10,12,14,16,18],
+backgroundColor: colors,
+borderColor: colors,
+borderWidth: 1
+}]
+},
+options: {
+responsive: true,
+plugins: { legend: { display: false } },
+scales: { y: { beginAtZero: true } }
+}
+});
+</script>
+</body>
+</html>

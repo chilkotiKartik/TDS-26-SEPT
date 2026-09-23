@@ -1,0 +1,21 @@
+<!-- Distortion ratio: 1.0 (full trend direction flip). Manipulation type: inverted axis (y reverse: true). Quantification: the score actually falls from 399.01 in Q1 to 334.86 in Q8, a drop of 64.15 points (about -16.1%), yet the reversed y-axis draws it as a rising line. Distortion: the inverted axis flips decline narrative - the descending scale reverses trend meaning, so the axis direction turns fall into rise. Fix: set reverse: false so higher values sit higher. What the corrected chart reveals: satisfaction has declined steadily every quarter, which the broken chart hid by presenting the decline as growth. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Satisfaction score is declining</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+body { font-family: system-ui, sans-serif; margin: 16px; }
+canvas { max-height: 340px; }
+</style>
+</head>
+<body>
+<h3>Satisfaction score is declining</h3>
+<canvas id="chart"></canvas>
+<script>
+new Chart(document.getElementById('chart'), {"type":"line","data":{"labels":["Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8"],"datasets":[{"label":"Satisfaction score","data":[399.01,388.67,379.01,372.87,363.81,352.55,347.31,334.86],"borderColor":"#7c3aed","backgroundColor":"rgba(124, 58, 237, 0.12)","tension":0.3}]},"options":{"responsive":true,"plugins":{"title":{"display":true,"text":"Satisfaction score is declining"}},"scales":{"y":{reverse: false}}}});
+</script>
+</body>
+</html>

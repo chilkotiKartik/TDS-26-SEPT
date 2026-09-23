@@ -1,0 +1,1 @@
+Make a markdown table with columns Id, Answer for a survey export. Rows 1-6, answers alternate between the two options of a boolean survey written in Title Case (first letter capital, rest lowercase), starting with the affirmative. Output only the table.
