@@ -52,7 +52,7 @@ Every graded assignment receives **its own dedicated module folder**, and every 
 <!-- GA-TABLE:START -->
 | Assignment | Topic | Score | Status | Folder |
 |:--|:--|:--:|:--:|:--|
-| **GA0** | Warm-up · Tools Tour & Benchmarks | **27.5** / 35.5 | ![done](https://img.shields.io/badge/completed-22c55e?style=flat-square) | [`tds-ga0-solutions/`](tds-ga0-solutions) |
+| **GA0** | Warm-up · Tools Tour & Benchmarks | **35.5** / 35.5 | ![done](https://img.shields.io/badge/completed-22c55e?style=flat-square) | [`tds-ga0-solutions/`](tds-ga0-solutions) |
 | **GA1** | Development Tools | – | ![soon](https://img.shields.io/badge/upcoming-30363d?style=flat-square) | – |
 | **GA2** | Deployment Tools | – | ![soon](https://img.shields.io/badge/upcoming-30363d?style=flat-square) | – |
 | **GA3** | LLMs & AI Coding | – | ![soon](https://img.shields.io/badge/upcoming-30363d?style=flat-square) | – |
