@@ -1,0 +1,12 @@
+<svg width="1200" height="70" viewBox="0 0 1200 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="70" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <text x="600" y="32" text-anchor="middle" fill="url(#footerGrad)" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" letter-spacing="2">LEARN · BUILD · SHIP · REPEAT</text>
+  <text x="600" y="52" text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">STRICTLY FOR EDUCATIONAL &amp; PERSONAL LEARNING PURPOSES · COPYRIGHT © 2026 KARTIK CHILKOTI</text>
+</svg>

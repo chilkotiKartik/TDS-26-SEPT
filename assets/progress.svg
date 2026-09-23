@@ -1,0 +1,53 @@
+<svg width="1000" height="200" viewBox="0 0 1000 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="996" height="196" rx="16" fill="url(#cardGrad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Left Circular Progress Ring -->
+  <g transform="translate(40, 25)">
+    <!-- Background Circle -->
+    <circle cx="75" cy="75" r="60" stroke="#1e293b" stroke-width="12" fill="none"/>
+    <!-- Progress Circle (100% of GA0 = 25/25 questions tackled) -->
+    <circle cx="75" cy="75" r="60" stroke="url(#barGrad)" stroke-width="12" stroke-linecap="round" fill="none"
+            stroke-dasharray="377" stroke-dashoffset="0" transform="rotate(-90 75 75)"/>
+    <text x="75" y="70" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">25/25</text>
+    <text x="75" y="92" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">SOLVED</text>
+  </g>
+
+  <!-- Middle Stats -->
+  <g transform="translate(230, 40)">
+    <text x="0" y="20" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">GA0 Completion Progress</text>
+    <text x="0" y="45" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">25 Modules · Shell, APIs, AI Evals, dbt, SQL, Web Crawlers &amp; Cloud</text>
+    
+    <!-- Progress Bar Track -->
+    <rect x="0" y="65" width="480" height="14" rx="7" fill="#1e293b"/>
+    <!-- Progress Bar Fill -->
+    <rect x="0" y="65" width="480" height="14" rx="7" fill="url(#barGrad)"/>
+
+    <text x="0" y="105" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">SCORE: 27.5 / 35.5 (Verified Benchmarks)</text>
+  </g>
+
+  <!-- Right Side Stat Badges -->
+  <g transform="translate(760, 30)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="200" height="64" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">ASSIGNMENT</text>
+    <text x="16" y="50" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">GA0 (Sep 2026)</text>
+
+    <!-- Box 2 -->
+    <rect x="0" y="76" width="200" height="64" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="102" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">NEXT UP</text>
+    <text x="16" y="126" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700">GA1 (Dev Tools)</text>
+  </g>
+</svg>
