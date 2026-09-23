@@ -2,15 +2,14 @@
 
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20%2F%20All%20Rights%20Reserved-red.svg)](LICENSE)
 [![Author: Kartik Chilkoti](https://img.shields.io/badge/Author-Kartik%20Chilkoti-blue.svg)](https://github.com/chilkotiKartik)
-[![IIT Madras BS Data Science](https://img.shields.io/badge/IIT%20Madras-BS%20Data%20Science-orange.svg)](https://study.iitm.ac.in/ds/)
 [![Course: TDS](https://img.shields.io/badge/Course-Tools%20in%20Data%20Science-purple.svg)]()
 [![Status: Complete](https://img.shields.io/badge/Status-100%25%20Complete-brightgreen.svg)]()
 
-My working notes, production code, and in-depth architectural breakdown for **Graded Assignment 0** of *Tools in Data Science* (IIT Madras, BS in Data Science and Applications).
+My working notes, production code, and in-depth architectural breakdown for **Graded Assignment 0** of *Tools in Data Science*.
 
 GA0 is the comprehensive benchmark assignment: 25 rigorous problems spanning spreadsheets, advanced shell automation, web scraping, FastAPI backend services, LLM API orchestration, GitHub Actions CI/CD pipelines, dbt data modeling, interactive data visualization, and cloud microservice deployment.
 
-> 🔒 **Notice & Academic Integrity:** Most questions are **dynamically personalised per student email** with unique hashes and datasets. This repository serves as a reference architecture. Understand the fundamental methodology rather than attempting verbatim data copying.
+> 🔒 **Notice & Academic Integrity:** Most questions are **dynamically personalised per user email** with unique hashes and datasets. This repository serves as a reference architecture. Understand the fundamental methodology rather than attempting verbatim data copying.
 
 ---
 
@@ -53,7 +52,7 @@ GA0 is the comprehensive benchmark assignment: 25 rigorous problems spanning spr
 ```
 tds-ga0-solutions/
 ├── LICENSE                       # Strict Proprietary License (Kartik Chilkoti)
-├── .github/workflows/ci.yml      # Q13 – Automated workflow with email step signature
+├── .github/workflows/ci.yml      # Q13 – Automated workflow signature
 ├── email.json                    # Q24 – Validated metadata configuration
 ├── q01-axis-scale-repair/ … q25-vercel-latency/
 │   ├── README.md                 # Question analysis, formal solution, step-by-step methodology
@@ -67,7 +66,7 @@ tds-ga0-solutions/
 
 - **Operating System & Runtime:** Windows 11 / WSL2 Ubuntu with Python 3.12 (`fastapi`, `uvicorn`, `httpx`, `hypothesis`, `pillow`, `pandas`)
 - **Shell Tooling:** GNU coreutils (`sha256sum`, `sed`, `awk`, `grep`, `find`)
-- **AI Acceleration:** AI Pipe Token via IITM DS credentials for LLM prompt engineering and evaluation
+- **AI Acceleration:** AI Pipe Token for LLM prompt engineering and evaluation
 - **Deployment & Cloud Infrastructure:** GitHub Actions, Vercel Serverless, ngrok tunnels
 
 ---

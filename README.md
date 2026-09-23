@@ -1,9 +1,9 @@
-# TDS-26-SEPT — Tools in Data Science (IIT Madras)
+# TDS-26-SEPT — Tools in Data Science
 
 [![License: Proprietary](https://img.shields.io/badge/License-Strict%20Proprietary%20%7C%20No%20Copy-red.svg?style=for-the-badge)](LICENSE)
 [![Copyright: Kartik Chilkoti](https://img.shields.io/badge/Copyright%20%C2%A9%202026-Kartik%20Chilkoti-0052CC.svg?style=for-the-badge)](https://github.com/chilkotiKartik)
 [![Academic Integrity](https://img.shields.io/badge/Academic%20Integrity-Strictly%20Enforced-critical.svg?style=for-the-badge)](LICENSE)
-[![Institution](https://img.shields.io/badge/Institution-IIT%20Madras%20BS%20Degree-orange.svg?style=for-the-badge)](https://study.iitm.ac.in/ds/)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-success.svg?style=for-the-badge)]()
 
 > ⚠️ **LEGAL & ACADEMIC INTEGRITY NOTICE**
 > 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📁 Repository Modules & Course Roadmap
+## 📁 Repository Modules & Roadmap
 
 | Module Directory | Topic / Assignment | Description | Completion Status |
 |---|---|---|:---:|
