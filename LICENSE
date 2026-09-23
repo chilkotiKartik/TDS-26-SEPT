@@ -13,18 +13,18 @@ datasets, test suites, and associated digital assets (collectively, the "Work"),
 is the sole, exclusive intellectual property of Kartik Chilkoti.
 
 1. PROHIBITION OF REPRODUCTION AND REDISTRIBUTION:
-   No person or organization may copy, reproduce, fork, mirror, distribute, publish, 
-   broadcast, sublicense, rent, lease, modify, adapt, translate, create derivative works 
-   from, decompile, reverse engineer, or disassemble any part of this Work, whether in 
-   source code, compiled binary, or human-readable format, without the express prior 
-   written authorization of Kartik Chilkoti.
+   No person, entity, or organization may copy, reproduce, fork, mirror, distribute, 
+   publish, broadcast, sublicense, rent, lease, modify, adapt, translate, create 
+   derivative works from, decompile, reverse engineer, or disassemble any part of 
+   this Work, whether in source code, compiled binary, or human-readable format, 
+   without the express prior written authorization of Kartik Chilkoti.
 
 2. ACADEMIC INTEGRITY & ANTI-PLAGIARISM RESTRICTIONS:
    This Work is published strictly for personal portfolio exhibition and archival purposes. 
-   Under no circumstances may any student, institution, or third party submit, reuse, 
+   Under no circumstances may any individual, organization, or third party submit, reuse, 
    or transcribe any solution, logic, code, or payload contained within this repository 
-   for academic grading, assignments, evaluations, coursework, or exams. Doing so 
-   constitutes intentional plagiarism and academic dishonesty.
+   for grading, assignments, evaluations, coursework, or exams. Doing so constitutes 
+   intentional plagiarism and academic dishonesty.
 
 3. PROHIBITION OF AUTOMATED SCRAPING & AI MODEL TRAINING:
    Automated extraction, scraping, crawling, indexing, or ingestion of the contents of this 
