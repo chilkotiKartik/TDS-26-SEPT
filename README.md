@@ -1,25 +1,37 @@
 # TDS-26-SEPT — Tools in Data Science (IIT Madras)
 
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary%20%2F%20All%20Rights%20Reserved-red.svg)](LICENSE)
-[![Author: Kartik Chilkoti](https://img.shields.io/badge/Author-Kartik%20Chilkoti-blue.svg)](https://github.com/chilkotiKartik)
-[![IIT Madras BS Data Science](https://img.shields.io/badge/IIT%20Madras-BS%20Data%20Science-orange.svg)](https://study.iitm.ac.in/ds/)
-[![Course: TDS](https://img.shields.io/badge/Course-Tools%20in%20Data%20Science%20(Sep%202026)-purple.svg)]()
+[![License: Proprietary](https://img.shields.io/badge/License-Strict%20Proprietary%20%7C%20No%20Copy-red.svg?style=for-the-badge)](LICENSE)
+[![Copyright: Kartik Chilkoti](https://img.shields.io/badge/Copyright%20%C2%A9%202026-Kartik%20Chilkoti-0052CC.svg?style=for-the-badge)](https://github.com/chilkotiKartik)
+[![Academic Integrity](https://img.shields.io/badge/Academic%20Integrity-Strictly%20Enforced-critical.svg?style=for-the-badge)](LICENSE)
+[![Institution](https://img.shields.io/badge/Institution-IIT%20Madras%20BS%20Degree-orange.svg?style=for-the-badge)](https://study.iitm.ac.in/ds/)
 
-Repository containing solutions, system designs, automation workflows, and assignments for **Tools in Data Science (TDS)** — IIT Madras BS in Data Science and Applications (September 2026 Term).
+> ⚠️ **LEGAL & ACADEMIC INTEGRITY NOTICE**
+> 
+> **Copyright © 2026 Kartik Chilkoti. All Rights Reserved.**
+> 
+> All content, code, architectures, solutions, and documentation within this repository are the exclusive proprietary intellectual property of **Kartik Chilkoti**. 
+> - **Copying Prohibited:** Unauthorized duplication, reproduction, distribution, mirroring, or public hosting of any part of this repository is strictly prohibited.
+> - **Anti-Plagiarism:** This repository is for personal portfolio demonstration only. Submitting any material herein for academic evaluation or coursework grading violates academic integrity policies.
 
 ---
 
-## 📁 Assignments & Modules
+## 📁 Repository Modules & Course Roadmap
 
-| Directory | Assignment | Description | Status |
+| Module Directory | Topic / Assignment | Description | Completion Status |
 |---|---|---|:---:|
-| [`tds-ga0-solutions/`](./tds-ga0-solutions) | **Graded Assignment 0 (GA0)** | 25 benchmark problems covering Shell, FastAPI, dbt, LLMs, Git, Vercel, and Data Viz | ✅ Complete |
-| *Upcoming* | **Graded Assignment 1 (GA1)** | *Next week's assignment module* | ⏳ Upcoming |
+| [`tds-ga0-solutions/`](./tds-ga0-solutions) | **Graded Assignment 0 (GA0)** | 25 solutions across Shell, FastAPI, dbt, LLMs, Git CI/CD, Vercel & Viz | ✅ 100% Complete |
+| `tds-ga1-solutions/` *(Upcoming)* | **Graded Assignment 1 (GA1)** | *Scheduled for next week* | ⏳ Queued |
 
 ---
 
-## 🔒 License & Copyright
+## 🔒 Comprehensive Legal License Summary
 
-**Copyright © 2026 Kartik Chilkoti. All Rights Reserved.**
+| Provision | Policy | Details |
+|---|---|---|
+| **Commercial / Non-Commercial Use** | ❌ **Forbidden** | No redistribution or public reuse permitted |
+| **Modification / Derivatives** | ❌ **Forbidden** | Forking, adapting, or creating derivative works is disallowed |
+| **Academic Submission** | ❌ **Forbidden** | Plagiarism warning — strictly for personal portfolio exhibition |
+| **AI / Model Training Scrapes** | ❌ **Forbidden** | Scraping or model training on this corpus is restricted |
+| **Ownership** | © **Kartik Chilkoti** | Protected under international copyright legislation |
 
-This repository and all included solutions, source code, data pipelines, and documentation are strictly confidential and proprietary to **Kartik Chilkoti**. Unauthorized copying, distribution, reproduction, or modification without explicit written consent is strictly prohibited. See [LICENSE](LICENSE) for full details.
+For full terms and legal clauses, refer to the complete [LICENSE](LICENSE) file.

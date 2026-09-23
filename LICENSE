@@ -1,19 +1,49 @@
-Strict Proprietary License - All Rights Reserved
+STRICT PROPRIETARY SOURCE CODE LICENSE & ANTI-PLAGIARISM NOTICE
 
 Copyright (c) 2026 Kartik Chilkoti. All Rights Reserved.
 
-CONFIDENTIAL AND PROPRIETARY SOURCE MATERIAL.
+================================================================================
+CONFIDENTIAL, EXCLUSIVE, AND PROPRIETARY INTELLECTUAL PROPERTY
+================================================================================
 
-Redistribution, copying, modification, publication, sublicensing, reverse engineering,
-commercial exploitation, or distribution of this software and associated documentation files
-(the "Software"), in whole or in part, in any form or by any means, electronic, mechanical,
-photocopying, recording, or otherwise, is strictly prohibited without the prior express written
-permission of the copyright holder (Kartik Chilkoti).
+IMPORTANT — READ CAREFULLY BEFORE VIEWING, DOWNLOADING, OR ACCESSING:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This repository, including all source code, documentation, architectures, scripts, 
+datasets, test suites, and associated digital assets (collectively, the "Work"), 
+is the sole, exclusive intellectual property of Kartik Chilkoti.
+
+1. PROHIBITION OF REPRODUCTION AND REDISTRIBUTION:
+   No person or organization may copy, reproduce, fork, mirror, distribute, publish, 
+   broadcast, sublicense, rent, lease, modify, adapt, translate, create derivative works 
+   from, decompile, reverse engineer, or disassemble any part of this Work, whether in 
+   source code, compiled binary, or human-readable format, without the express prior 
+   written authorization of Kartik Chilkoti.
+
+2. ACADEMIC INTEGRITY & ANTI-PLAGIARISM RESTRICTIONS:
+   This Work is published strictly for personal portfolio exhibition and archival purposes. 
+   Under no circumstances may any student, institution, or third party submit, reuse, 
+   or transcribe any solution, logic, code, or payload contained within this repository 
+   for academic grading, assignments, evaluations, or exams (including, but not limited to, 
+   IIT Madras BS Degree Graded Assignments). Doing so constitutes intentional plagiarism 
+   and academic dishonesty.
+
+3. PROHIBITION OF AUTOMATED SCRAPING & AI MODEL TRAINING:
+   Automated extraction, scraping, crawling, indexing, or ingestion of the contents of this 
+   repository for the training, fine-tuning, evaluation, or benchmarking of Machine Learning / 
+   Large Language Models without explicit contractual consent is strictly forbidden.
+
+4. INTELLECTUAL PROPERTY INFRINGEMENT & REMEDIES:
+   Any unauthorized use, copying, or public reproduction of this Work constitutes copyright 
+   infringement under applicable international copyright treaties and domestic laws. The 
+   copyright owner reserves all rights to pursue statutory damages, injunctive relief, 
+   and immediate DMCA takedown actions.
+
+5. DISCLAIMER OF WARRANTY:
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+   PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER 
+   BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE WORK.
+
+================================================================================
+All inquiries regarding licensing or authorized access should be directed to Kartik Chilkoti.
+================================================================================
